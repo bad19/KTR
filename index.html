@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KTR MULTISERVICES — Location & Menuiserie</title>
+  <meta name="description" content="KTR MULTISERVICES : location de véhicules , voitures,la menuiserie aluminium , vente de gravier .la qualité et le professionnalisme.">
+  <style>
+    body { font-family: system-ui, sans-serif; margin:0; line-height:1.5; background:#f5f5f5; color:#1a1a1a; }
+    header, section, footer { max-width:1100px; margin:0 auto; padding:20px; }
+    header { display:flex; justify-content:space-between; align-items:center; background:#0e76a8; color:white; padding:15px 20px; }
+    header h1 { margin:0; font-size:20px; }
+    nav a { color:white; margin-left:15px; text-decoration:none; font-weight:600; }
+    .hero { text-align:center; padding:40px 20px; background:#06b6d4; color:white; }
+    .hero h2 { font-size:28px; margin-bottom:10px; }
+    .hero p { font-size:16px; margin-bottom:20px; }
+    .btn { display:inline-block; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:600; }
+    .btn-primary { background:#0e76a8; color:white; }
+    .btn-secondary { background:white; color:#0e76a8; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; margin-top:20px; }
+    .card { background:white; padding:20px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center; }
+    h2 { margin-top:0; }
+    footer { text-align:center; font-size:14px; color:#555; padding:20px 0; }
+    input, textarea { width:100%; padding:10px; margin-top:5px; border-radius:8px; border:1px solid #ccc; }
+    form { margin-top:20px; display:grid; gap:12px; }
+    .image-placeholder { width:100%; height:150px; background:#ddd; border-radius:8px; display:flex; align-items:center; justify-content:center; color:#888; margin-top:10px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>KTR MULTISERVICES</h1>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#apropos">À propos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>KTR MULTISERVICES</h2>
+  <p>Location de véhicules, menuiserie aluminium , location de recidence meublé et vente de graviers . La qualité et le professionnalisme à votre service.</p>
+  <a href="#contact" class="btn btn-primary">Demander un devis</a>
+</section>
+
+<section id="services">
+  <h2>Nos Services</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Location de véhicules</h3>
+      <p>Voitures et utilitaires pour vos besoins professionnels ou personnels.</p>
+      <div class="image-placeholder">Photo à ajouter</div>
+    </div>
+    <div class="card">
+      <h3>Menuiserie aluminium</h3>
+      <p>Portes, fenêtres, vérandas et aménagements sur mesure en aluminium.</p>
+      <div class="image-placeholder">Photo à ajouter</div>
+ </div>
+    <div class="card">
+      <h3>Vente de gravier </h3>
+      <p>Un gravier de qualiter a moindre coût.</p>
+      <div class="image-placeholder">Photo à ajouter</div>
+    </div>
+    <div class="card">
+      <h3>Location de voitures</h3>
+      <p>Courte ou longue durée, voitures fiables et entretenues.</p>
+      <div class="image-placeholder">Photo à ajouter</div>
+    </div>
+  </div>
+</section>
+
+<section id="apropos">
+  <h2>À propos de KTR MULTISERVICES</h2>
+  <p>Entreprise locale offrant des services variés et fiables. Notre mission : fournir qualité, rapidité et professionnalisme dans tous nos domaines d’activité.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact & Devis</h2>
+  <form action="https://formspree.io/f/your-form-id" method="POST" novalidate>
+    <label for="name">Nom</label>
+    <input type="text" id="name" name="name" required placeholder="Votre nom">
+    
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required placeholder="contact@exemple.com">
+    
+    <label for="phone">Téléphone</label>
+    <input type="text" id="phone" name="phone" required placeholder="05 07 84 43 54 ou 01 03 03 43 00">
+    
+    <label for="message">Message / demande</label>
+    <textarea id="message" name="message" required placeholder="Expliquez votre besoin"></textarea>
+    
+    <button type="submit" class="btn btn-primary">Envoyer la demande</button>
+  </form>
+  <p style="margin-top:10px;">☎ 05 07 84 43 54 ou 01 03 03 43 00• contact: ktr-multiservices@gmail.com</p>
+</section>
+
+<footer>
+  © 2025 KTR MULTISERVICES — Tous droits réservés
+</footer>
+
+</body>
+</html>
